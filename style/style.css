@@ -29,6 +29,29 @@
 .nav-hamburger-menu{
     display: none;
 }
+/*banner start */
+.main-content{
+    max-width:1200px;
+    margin: 0 auto;
+    min-height:400px;
+    border: 2px solid red;
+}
+.img-banner{
+    width: 600px;
+    height: 400px;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+}
+.banner-child{
+    width: 50%;
+    border: 1px solid green;
+
+}
+.banner-child img{
+    width: 100%;
+}
 .btn-bg{
     
 }
