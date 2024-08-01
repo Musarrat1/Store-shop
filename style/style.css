@@ -34,25 +34,65 @@
     max-width:1200px;
     margin: 0 auto;
     min-height:400px;
-    border: 2px solid red;
-}
-.img-banner{
-    width: 600px;
-    height: 400px;
 }
 .main-div{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+   
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(242, 242, 242);
 }
 .banner-child{
-    width: 50%;
-    border: 1px solid green;
+    width: 47%;
+    position: relative;
 
+}
+.banner-btn{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-top: 10px;
 }
 .banner-child img{
     width: 100%;
+    border-radius: 10px;
 }
-.btn-bg{
-    
+
+.fifty-off{
+    background-color: rgba(0, 0, 0, 0.663);
+    font-size: 25px;
+    border-radius: 10px;
+    width: max-content;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    padding: 20px 50px;
+
 }
+
 /*nav end*/
+.btn-bg{
+    padding: 10px;
+}
+.collection{
+   text-align: center;
+   margin-top: 10px;
+}
+/*car start*/
+.main-card{
+    background-color: rgb(244, 240, 240);
+    min-height: 200px;
+    margin-top: 20px;
+}
+.card{
+    border: 3px solid gray;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
